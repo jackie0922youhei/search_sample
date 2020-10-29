@@ -13,4 +13,3 @@ User.create(name: 'みき',age: '17', sex: '2', address: '新宿')
 User.create(name: 'かんな',age: '22', sex: '2', address: '池袋')
 User.create(name: 'あきお',age: '13', sex: '1', address: '上野')
 
-
