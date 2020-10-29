@@ -19,10 +19,10 @@
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>Sex</th>
-      <th>Address</th>
+      <th><%= sort_link(@q, :name, "Name") %></th>
+      <th><%= sort_link(@q, :age, "Age") %></th>
+      <th><%= sort_link(@q, :sex, "Sex") %></th>
+      <th><%= sort_link(@q, :address, "Address") %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
